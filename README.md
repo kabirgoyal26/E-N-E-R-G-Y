@@ -8,10 +8,7 @@ This project calculates the optimal energy usage for a floor containing server r
 - [Introduction](#introduction)
 - [Project Overview](#project-overview)
 - [How It Works](#how-it-works)
-- [Usage](#usage)
-- [Dependencies](#dependencies)
-- [Results](#results)
-- [License](#license)
+
 
 ## Introduction
 
@@ -39,38 +36,5 @@ The project includes the following key components:
 - For lighting: `Energy = Power (W) * Time (h)`
 - For cooling: `Energy = Cooling Load (kW) * Time (h)`
 
-## Usage
 
-To use this project, follow these steps:
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/optimal-energy-calculation.git
-    ```
-2. Navigate to the project folder:
-    ```bash
-    cd optimal-energy-calculation
-    ```
-3. Install required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-4. Run the script to calculate the energy usage:
-    ```bash
-    python energy_calculator.py
-    ```
-
-5. The results will be displayed for each room type (Server Rooms, Labs, Open Areas) and for each energy consumption type (lighting, cooling).
-
-## Dependencies
-
-This project uses the following Python packages:
-
-- `numpy`
-- `pandas`
-- `matplotlib` (for visualizing results)
-
-You can install the required dependencies using the command:
-
-```bash
-pip install -r requirements.txt
